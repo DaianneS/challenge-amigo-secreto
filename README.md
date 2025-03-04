@@ -4,12 +4,12 @@ Este projeto foi desenvolvido como parte do Challenge Oracle ONE na plataforma A
 
 ## 🚀 Funcionalidades  
 
-- 📌 Adicionar amigos à lista  
-- 🎲 Sortear pares de amigos de forma aleatória  
-- 🔄 Garantir que ninguém tire a si mesmo  
+-  Adicionar amigos à lista  
+-  Sortear pares de amigos de forma aleatória  
+-  Garantir que ninguém tire a si mesmo  
 
 ## 🛠️ Tecnologias Utilizadas  
 
-- **JavaScript** 🟨  
-- **HTML** 📄  
-- **CSS** 🎨  
+- **JavaScript**  
+- **HTML**   
+- **CSS**  
