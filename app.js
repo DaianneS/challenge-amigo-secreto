@@ -6,21 +6,19 @@ function exibirTextoNaTela(tag,texto){
 }
 
 function adicionarAmigo(){
-    let inputAmigo = document.getElementById('amigo').value;
-    console.log('O botão foi clicado!');
+    let inputAmigo = document.getElementById('amigo').value.trim();
     console.log(inputAmigo);
-    limparCampo();
-    if(amigos.includes(inputAmigo)){
-        console.log(amigos)
-        alert('Adicione um nome que não tenha sido adicionado');
-        return inputAmigo;
-    } else if(inputAmigo == ''){
+
+    if (inputAmigo === '') {
         alert('Adicione um nome válido');
-        return inputAmigo;
+        return;
+    } else if (amigos.includes(inputAmigo)) {
+        alert('Adicione um nome que não tenha sido adicionado');
+        return;
     } else{
         amigos.push(inputAmigo);
-        console.log(amigos)
-        return inputAmigo;
+        limparCampo();
+        console.log(amigos);
     }
 }
 
