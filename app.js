@@ -20,6 +20,8 @@ function adicionarAmigo(){
         limparCampo();
         console.log(amigos);
     }
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = `Lista de amigos: ${amigos}`;
 }
 
 function limparCampo(){
@@ -51,8 +53,7 @@ function sortearAmigo(){
     let nomeSorteado = amigos[sorteado];
     
     let resultado = document.getElementById('resultado');
-    resultado.innerHTML = nomeSorteado;
-
+    resultado.innerHTML = `O amigo sorteado foi: ${nomeSorteado}`;
 
     console.log(sorteado);
     console.log(nomeSorteado);
