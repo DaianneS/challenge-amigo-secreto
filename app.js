@@ -42,13 +42,17 @@ function atualizarLista(amigos){
 }
 
 function sortearAmigo(){
-    if (amigos.lenght == null){
+    if (amigos.lenght === null){
         alert('A lista de amigos está vazia');
         return;
     }
-
+    
     let sorteado = Math.floor(Math.random() * amigos.length);
     let nomeSorteado = amigos[sorteado];
+    
+    let resultado = document.getElementById('resultado');
+    resultado.innerHTML = nomeSorteado;
+
 
     console.log(sorteado);
     console.log(nomeSorteado);
