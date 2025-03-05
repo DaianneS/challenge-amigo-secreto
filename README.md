@@ -14,3 +14,7 @@ Fiz algumas alterações no design que me foi dado, para de um anime que gosto (
 - **JavaScript**  
 - **HTML**   
 - **CSS**  
+
+## 🔗 Link para o projeto
+
+https://daiannes.github.io/challenge-amigo-secreto/
